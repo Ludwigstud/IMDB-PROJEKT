@@ -1,0 +1,85 @@
+.header {
+padding: 1.25rem;
+}
+
+.container__nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.1rem 0.8rem;
+  font-size: 1.5rem;
+  color: blue;
+  background-color: yellow;
+  border-radius: 0.3rem;
+}
+
+.nav {
+  width: 100%;
+}
+
+.searchInputGroup {
+  position: relative;
+  width: 100%;
+  float: right;
+  height: 2.5rem;
+}
+
+.searchInput {
+  width: 85%;
+  height: 100%;
+  padding: 0 0.5rem;
+  font-size: 1.1rem;
+  border-radius: .5rem;
+}
+
+
+
+
+
+@media (min-width: 600px) {
+  .container__nav {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+
+  .searchInputGroup {
+    width: 95%;
+  }
+
+  .searchInput {
+    width: 90%;
+  }
+  .iconButton {
+    width: 10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .searchInput {
+    width: 92%;
+  }
+  .iconButton {
+    width: 8%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .searchInput {
+    width: 95%;
+  }
+  .iconButton {
+    width: 5%;
+  }
+}

@@ -1,0 +1,8 @@
+.dropdownContainer {
+  background-color: black;
+  border: 0.25rem solid white;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,10 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem
+}
+
+.main {
+  min-height: 70vh;
+}

@@ -1,0 +1,65 @@
+.itemContainer {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  gap: 1rem;
+}
+
+.isFirstChild {
+  border-top: none;
+}
+
+.image {
+  width: 6rem;
+  min-height: 5.8rem;
+}
+
+.content {
+  width: 100%;
+  color: var(--color-white);
+}
+
+.content h3 {
+  margin-top: 0.6rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+}
+
+.descriptionShort {
+  display: none;
+}
+
+.descriptionLong {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .content h3 {
+    margin-top: 0.4rem;
+    line-height: 2rem;
+  }
+  .descriptionSuperShort {
+    display: none;
+  }
+
+  .descriptionShort {
+    display: block;
+  }
+
+  .descriptionLong {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .descriptionSuperShort {
+    display: none;
+  }
+
+  .descriptionShort {
+    display: none;
+  }
+
+  .descriptionLong {
+    display: block;
+  }
+}

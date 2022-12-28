@@ -1,0 +1,35 @@
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  overflow: hidden;
+background-color: black;
+border: solid white 0.25rem;}
+
+.loadingCard {
+  border-radius: 1rem;
+}
+
+.content {
+  height: 10rem;
+  padding: 1.5rem 1rem 0 1rem;
+  color: var(--color-white);
+}
+
+.ratingContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.icon {
+color: yellow;
+font-size: 2rem;
+}
+
+.ratingText {
+  width: -moz-fit-content;
+  width: fit-content;
+}

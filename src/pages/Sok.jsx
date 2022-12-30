@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import classes from "./Sok.module.css";
 import MovieRow from "../components/MovieRow";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../api/useFetch";
 
 const Search = () => {
   let { query } = useParams();

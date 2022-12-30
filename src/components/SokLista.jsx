@@ -1,4 +1,4 @@
-import useFetch from "../hooks/useFetch";
+import useFetch from "../api/useFetch";
 import { useRef, useEffect } from "react";
 import ItemDrop from "./ItemDrop";
 import classes from "./SokFunktion.module.css";

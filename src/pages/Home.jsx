@@ -1,5 +1,5 @@
 import MovieRow from "../components/MovieRow";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../api/useFetch";
 
 const Home = () => {
 

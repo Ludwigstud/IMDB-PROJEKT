@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../api/useFetch";
 import classes from "./FilmPage.module.css";
 import { AiFillStar } from "react-icons/ai";
 import { CircularProgress } from "@mui/material";
